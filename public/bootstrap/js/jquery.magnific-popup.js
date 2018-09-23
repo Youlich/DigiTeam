@@ -331,7 +331,7 @@ MagnificPopup.prototype = {
 			if(!mfp.isIE7) {
 				windowStyles.overflow = 'hidden';
 			} else {
-				// ie7 double-scroll.js bug
+				// ie7 double-scroll bug
 				$('body, html').css('overflow', 'hidden');
 			}
 		}
@@ -814,7 +814,7 @@ MagnificPopup.prototype = {
 		// thx David
 		if(mfp.scrollbarSize === undefined) {
 			var scrollDiv = document.createElement("div");
-			scrollDiv.style.cssText = 'width: 99px; height: 99px; overflow: scroll.js; position: absolute; top: -9999px;';
+			scrollDiv.style.cssText = 'width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;';
 			document.body.appendChild(scrollDiv);
 			mfp.scrollbarSize = scrollDiv.offsetWidth - scrollDiv.clientWidth;
 			document.body.removeChild(scrollDiv);

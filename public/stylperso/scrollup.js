@@ -1,1 +1,0 @@
-//faire en sorte que le scroll soit plus lent entre clic menu et l'accès à la section

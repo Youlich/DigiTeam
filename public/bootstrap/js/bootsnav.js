@@ -208,7 +208,7 @@
             
             if( getWindow < 981 ){
                 
-                // Height of scroll.js navigation sidebar
+                // Height of scroll navigation sidebar
                 $(".scroller").css("height", "auto");
                 
                 // Disable mouseenter event
@@ -310,7 +310,7 @@
                 });
 
             }else if( getWindow > 981 ){
-                // Height of scroll.js navigation sidebar
+                // Height of scroll navigation sidebar
                 $(".scroller").css("height", getHeight + "px");
                 
                 // Navbar Sidebar
@@ -466,7 +466,7 @@
                 var getHeight = getNav.height();             
                 $(".wrap-sticky").height(getHeight);
                 
-                // Windown on scroll.js
+                // Windown on scroll
                 var getOffset = $(".wrap-sticky").offset().top;
                 $(window).on("scroll", function(){  
                     var scrollTop = $(window).scrollTop();
@@ -492,11 +492,11 @@
                 $body.scrollspy({target: '.navbar', offset: offset });
                 
                 // Animation Scrollspy
-                $('.scroll.js').on('click', function(event) {
+                $('.scroll').on('click', function(event) {
                     event.preventDefault();
 
                     // Active link
-                    $('.scroll.js').removeClass("active");
+                    $('.scroll').removeClass("active");
                     $(this).addClass("active");
 
                     // Remove navbar collapse

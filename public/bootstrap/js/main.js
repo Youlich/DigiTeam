@@ -1,7 +1,11 @@
 "use strict";
 jQuery(document).ready(function ($) {
 
+//for Preloader
 
+    $(window).load(function () {
+        $("#loading").fadeOut(500);
+    });
 
 
     /*---------------------------------------------*
@@ -145,6 +149,8 @@ jQuery(document).ready(function ($) {
         $("html, body").animate({scrollTop: 0}, 1000);
         return false;
     });
+
+
 
 
 
