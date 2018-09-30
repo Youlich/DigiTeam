@@ -2,58 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a069febb-8ff5-4ae3-b480-962e2a62823c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/stylperso/fonction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/ArticleBlog.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/agency.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/expertise.htm.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/css/bootsnav.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/bootstrap/css/bootsnav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/css/fonticons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/bootstrap/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/bootstrap/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/fonts/icofont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/fonts/icofont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/fonts/icofont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/fonts/icofont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/Blog/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/Blog/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/Blog/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/Portfolio/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/Portfolio/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/Portfolio/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/Portfolio/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/Portfolio/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/Portfolio/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/background/header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/background/subscribe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/background/testimonial.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/background/video.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/background/work-together.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/clients/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/clients/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/clients/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/clients/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/clients/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/fprojects/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/fprojects/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/fprojects/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/fprojects/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/fprojects/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/bootstrap/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/maps.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/pluse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/images/thumb01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/js/isotope.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/bootstrap/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bootstrap/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/bootstrap/js/plugins.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylperso/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylperso/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/services.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/agency.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/agency.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylperso/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="413">
+              <caret line="130" column="1" selection-start-line="120" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -101,16 +51,16 @@
         <entry file="file://$PROJECT_DIR$/templates/blog.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="158">
-              <caret line="160" column="68" lean-forward="true" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="68" />
+              <caret line="160" column="68" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleBlog.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArticleBlog.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/ArticleBlog.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -145,8 +95,8 @@
       <file leaf-file-name="agency.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/agency.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="54" />
+            <state relative-caret-position="272">
+              <caret line="73" column="86" selection-start-line="73" selection-start-column="86" selection-end-line="73" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -205,14 +155,14 @@
         <option value="$PROJECT_DIR$/templates/services.html.twig" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/templates/expertises.htm.twig" />
-        <option value="$PROJECT_DIR$/templates/agency.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/templates/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/public/stylperso/fonction.js" />
-        <option value="$PROJECT_DIR$/public/stylperso/style.css" />
         <option value="$PROJECT_DIR$/templates/blog.html.twig" />
         <option value="$PROJECT_DIR$/templates/ArticleBlog.html.twig" />
+        <option value="$PROJECT_DIR$/templates/agency.html.twig" />
+        <option value="$PROJECT_DIR$/public/stylperso/style.css" />
       </list>
     </option>
   </component>
@@ -429,7 +379,7 @@
       <workItem from="1537972750303" duration="6583000" />
       <workItem from="1538121650907" duration="19492000" />
       <workItem from="1538143865617" duration="2592000" />
-      <workItem from="1538310948708" duration="9206000" />
+      <workItem from="1538310948708" duration="10765000" />
     </task>
     <task id="LOCAL-00001" summary="Travail préparatoire : page index = accueil et base.html.twig qui servira pour les autres templates.">
       <created>1537714726414</created>
@@ -438,17 +388,23 @@
       <option name="project" value="LOCAL" />
       <updated>1537714726414</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Travail préparatoire : ajout de la page accueil">
+      <created>1538327220856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538327220856</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59675000" />
+    <option name="totallyTimeSpent" value="61234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21658097" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21658097" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -457,7 +413,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3292683" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3292683" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -498,7 +454,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Travail préparatoire : page index = accueil et base.html.twig qui servira pour les autres templates." />
-    <option name="LAST_COMMIT_MESSAGE" value="Travail préparatoire : page index = accueil et base.html.twig qui servira pour les autres templates." />
+    <MESSAGE value="Travail préparatoire : ajout de la page accueil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Travail préparatoire : ajout de la page accueil" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/index.html.twig">
@@ -755,13 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/agency.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -782,13 +732,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylperso/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
@@ -816,14 +759,28 @@
     <entry file="file://$PROJECT_DIR$/templates/blog.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
-          <caret line="160" column="68" lean-forward="true" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="68" />
+          <caret line="160" column="68" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/ArticleBlog.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/agency.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="73" column="86" selection-start-line="73" selection-start-column="86" selection-end-line="73" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylperso/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="130" column="1" selection-start-line="120" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
         </state>
       </provider>
     </entry>
