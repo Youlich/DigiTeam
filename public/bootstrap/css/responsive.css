@@ -15,9 +15,14 @@ Author URI: http://www.xpeedstudio.com
 
 
 
-
 }
 
+
+
+/* Portrait tablets and small desktops */
+/*@media (max-width: 992px) {
+
+}*/
 
 
 /* Portrait tablets and small desktops */
@@ -38,10 +43,26 @@ Author URI: http://www.xpeedstudio.com
     .sm-m-top-30{
         margin-top:30px;
     }
+    .sm-m-top-40{
+        margin-top:40px;
+    }
     .sm-m-top-50{
         margin-top:50px;
     }
+    .item_img i{
+        right:0%;
+    }
 
+    .divider_horizontal,
+    .divider_vertical{
+        display: none;
+    }
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 5px;
+        width:350px;
+        overflow: hidden;
+    }
 
 
 }
@@ -66,18 +87,23 @@ Author URI: http://www.xpeedstudio.com
     .xs-m-top-10{
         margin-top:10px;
     }
+    .xs-m-top-30{
+        margin-top:30px;
+    }
     .xs-m-bottom-10{
         margin-bottom:10px;
     }
     .xs-m-bottom-20{
         margin-bottom:20px;
     }
-    .main_testimonial .testimonial_slid .slick-arrow.nextprevright {
-        top: -150px;
+
+    .main_product .carousel-control{
+        display: none;
     }
 
 
 }
+
 
 
 
@@ -87,9 +113,8 @@ Author URI: http://www.xpeedstudio.com
     html {
         font-size: 85%;
     }
-    .testimonial_slid .slick-arrow {
-        display: none;
-    }
+
+
 
 }
 
@@ -106,9 +131,9 @@ Author URI: http://www.xpeedstudio.com
     html {
         font-size: 60.5%;
     }
-    .btn.btnxs{
-        padding:2.01rem 1.5rem;
-    }
+
+
+
 
 }
 

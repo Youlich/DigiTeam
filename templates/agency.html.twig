@@ -1,0 +1,84 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <body>
+    <!--Team And Skill Section-->
+    <section id="teams" class="teams roomy-80" style="background-color: grey;padding-top: 200px">
+        <div class="container">
+            <div class="row">
+                <div class="main_teams_content fix">
+
+                    <div class="teams_item">
+                        <div class="head_title">
+                            <h2 class="text-uppercase">Notre <strong>Team</strong></h2>
+                        </div>
+                    </div>
+<br/><br/>
+                    <div class="teams_item text-center sm-m-top-50">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="{{ asset('bootstrap//images/team1.jpg') }}" alt="" class="img-circle" />
+                                <h4 class="m-top-20">Elodie <strong>Rouel</strong></h4>
+                                <h5>Web Marketing</h5>
+                                <div class="separator"></div>
+                                <ul class="list-inline">
+                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div><!-- End off col-md-6 -->
+                            <div class="col-md-6">
+                                <img src="{{ asset('bootstrap//images/team1.jpg') }}" alt="" class="img-circle" />
+                                <h4 class="m-top-20">Maxime <strong>Constantin</strong></h4>
+                                <h5>Web Marketing</h5>
+                                <div class="separator"></div>
+                                <ul class="list-inline">
+                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div><!-- End off col-md-6 -->
+
+                            <div class="col-md-6">
+                                <br/>
+                                <img src="{{ asset('bootstrap//images/team2.jpg') }}" alt="" class="img-circle" />
+                                <h4 class="m-top-20">Julie <strong>Tatibouet</strong></h4>
+                                <h5>Développeur</h5>
+                                <div class="separator"></div>
+                                <ul class="list-inline">
+                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div><!-- End off col-md-6 -->
+                            <div class="col-md-6">
+                                <br/>
+                                <img src="{{ asset('bootstrap//images/team3.jpg') }}" alt="" class="img-circle" />
+                                <h4 class="m-top-20">Fabien <strong>Breton</strong></h4>
+                                <h5>Web Engineer</h5>
+                                <div class="separator"></div>
+                                <ul class="list-inline" >
+                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div><!-- End off col-md-6 -->
+                        </div>
+                    </div>
+
+                </div><!-- End off main Team -->
+            </div><!-- End off row -->
+        </div><!-- End off container -->
+    </section><!-- End off Team & Skill section -->
+
+
+
+    </body>
+
+{% endblock %}
+
+    {% block javascripts %}
+        {{ parent() }}
+
+    {% endblock %}
+

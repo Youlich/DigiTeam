@@ -672,7 +672,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav.navbar-transparent.white .attr-nav > ul > li > a,
     nav.navbar.bootsnav.navbar-transparent.white ul.nav > li > a,
     nav.navbar.bootsnav.no-background.white ul.nav > li > a{
-        color: #fff;
+        color: #e1e1e1;
     }
     
     nav.navbar.bootsnav.navbar-transparent.dark .attr-nav > ul > li > a,
