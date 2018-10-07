@@ -1,3 +1,5 @@
+/* Header */
+
 .logoDT{
     height: 70px;
     width: 70px;
@@ -9,6 +11,7 @@ nav.navbar.bootsnav {
     height: 150px;
     border-bottom: none;
 }
+
 
 #navbar-menu, .attr-nav{
     padding-top: 30px;
@@ -34,16 +37,41 @@ nav.navbar.bootsnav ul.nav li.active > a {
     line-height: 30px;
 }
 
+/* Fin Header*/
+
+/*changement de couleur des titres des texte bouton*/
+.btn-primary:hover{
+    background-color: #eee;
+    border-color: #eee;
+    color:#f9af32;
+}
+
+.head_title h2 {
+    border-left: 3px solid #f9af32;
+}
+
+
 h1 {
     color: #f9af32;
-
 }
 
 .bg-orange {
-
     background-color: #f9af32;
-
 }
+
+
+.btn-card:hover {
+    background-color: #f9af32; !important;
+}
+
+/* Fin changement couleur texte*/
+
+
+.roomy-80 {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
 
 .overlay{
     background-image: url("/images/action.jpg");
@@ -63,11 +91,6 @@ li {
     background-color: grey;
 }
 
-.btn-card:hover {
-
-    background-color: #fddc57; !important;
-
-}
 
 .scrollup {
 
@@ -87,7 +110,7 @@ li {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    color: yellow;
+    color: #f9af32;
     opacity: 0.5;
     -moz-opacity: 0.5;
     filter: alpha(opacity=50);
@@ -99,9 +122,7 @@ li {
 }
 
 .menu:hover {
-
-    color: #fddc57;
-
+    color: #f9af32;
 }
 
 .m-top-80 {
@@ -116,6 +137,9 @@ li {
         padding-top: 15px;
         padding-bottom: 0;
         vertical-align: auto;
+    }
+    #navbar-menu, .attr-nav{
+        padding-top: 5px;
     }
     h1.text-yellow{
         font-size: 80px;
@@ -186,6 +210,6 @@ li {
 
 .card{
 
-    background : yellow;
+    background : #f9af32;
     height : 226px;
 }
