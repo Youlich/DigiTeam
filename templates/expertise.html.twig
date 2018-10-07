@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<body xmlns="http://www.w3.org/1999/html">
+<!--présentation services  Section-->
+<section id="accueil" class="home bg-black fix">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="main_home text-center">
+                <div class="col-md-12">
+                    <div class="hello">
+                        <div class="slid_item">
+                            <div class="home_text ">
+                                <h1 class="text-yellow">Nos domaines d'expertise</h1>
+                            </div>
+                        </br></br></br></br>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                                        <div class="card">
+                                        <a href="#dev" class="nav-box text-center" style="color: black;text-align: center;">Développement</a></div></div>
+                                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                                        <div class="card">
+                                        <a href="#consulting" class="nav-box text-center" style="color: black;text-align: center;">Consulting</a></div></div>
+                                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                                        <div class="card">
+                                        <a href="#inbound" class="nav-box text-center" style="color: black;text-align: center;">Inbound Marketing</a></div></div>
+                                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                                        <div class="card">
+                                        <a href="#design" class="nav-box text-center" style="color: black;text-align: center;">Web Design</a></div></div>
+                                </div>
+                            </div>
+                        </div><!-- End off slid item -->
+                    </div>
+                </div>
+            </div>
+
+
+            <a class="mouse-scroll" href="#dev">
+                            <span class="mouse">
+                                <span class="mouse-movement"></span>
+                            </span>
+                <span class="mouse-message fadeIn">Voir la suite</span> <br />
+                <!--<i class="fa fa-angle-down m-top-10 fadeIn mouse-message"></i>-->
+            </a>
+
+        </div><!--End off row-->
+    </div><!--End off container -->
+</section> <!--End off accueil Section-->
+
+<!-- End off présentation services  Section -->
+</body>
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+
+{% endblock %}

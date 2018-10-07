@@ -1,0 +1,25 @@
+body {
+    position: relative;
+}
+ul.nav-pills {
+    top: 20px;
+    position: fixed;
+}
+div.col-sm-9 div {
+    height: 250px;
+    font-size: 28px;
+}
+#site {color: #fff; background-color: #1E88E5;}
+#blog {color: #fff; background-color: #673ab7;}
+#ajout_article{color: #fff; background-color: #673ab7;}
+#modif_article{color: #fff; background-color: #673ab7;}
+#commentaires{color: #fff; background-color: #673ab7;}
+#devis {color: #fff; background-color: #ff9800;}
+#newsletter {color: #fff; background-color: #00bcd4;}
+#agenda {color: #fff; background-color: #009688;}
+
+@media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 150px;
+    }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>DigiTeam - agence digitale sport</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ asset('/images/favicon.ico') }}" />
+
+    <title>{% block title %}DigiTeam{% endblock %}</title>
+    {% block stylesheets %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('stylperso/admin.css') }}" />
+    {% endblock %}
+</head>
+
+<nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
+
+    <div class="container">
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+
+            <a class="navbar-brand" href="{{ path('accueil') }}">
+                <img src="/images/logo.png" class="logo" alt="">
+                <!--<img src="assets/images/footer-logo.png" class="logo logo-scrolled" alt="">-->
+            </a>
+        </div>
+        <!-- End Header Navigation -->
+        <!-- navbar menu -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav navbar-center">
+                <li><a href="{{ path('accueil') }}">Se déconnecter</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+<div class="container">
+    <div class="row">
+        <nav class="col-sm-3" id="myScrollspy">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="#site">Site Digiteam</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#ajout_article">Ajouter un article</a></li>
+                        <li><a href="#modif_article">Modifier/supprimer un article</a></li>
+                        <li><a href="#commentaires">Gestion commentaires</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="#devis">Devis</a></li>
+                <li class="active"><a href="#newsletter">Newsletter</a></li>
+
+                <li class="active"><a href="#agenda">Agenda</a></li>
+            </ul>
+        </nav>
+        <div class="col-sm-9">
+            <div id="site">
+                <h1>nb de visites</h1>
+                <h1>nb d'inscrits newsletter</h1>
+                <h1>nb de projets en-cours</h1>
+                <p></p>
+            </div>
+            <div id="ajout_article">
+                <h1>Ajouter un article</h1>
+                <p></p>
+            </div>
+            <div id="modif_article">
+                <h1>Liste des articles</h1>
+                <p></p>
+            </div>
+
+            <div id="commentaires">
+                <h1>Liste des commentaires</h1>
+                <p></p>
+            </div>
+            <div id="devis">
+                <h1>Liste des demandes</h1>
+                <p></p>
+            </div>
+            <div id="newsletter">
+                <h1>Liste des demandes</h1>
+                <p></p>
+            </div>
+
+            <div id="agenda">
+                <h1>lien avec agenda google</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+{% block javascripts %}
+<script type="text/javascript" src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js') }}"></script>
+{% endblock %}
+</html>

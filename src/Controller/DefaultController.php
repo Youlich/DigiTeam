@@ -43,4 +43,38 @@ class DefaultController extends AbstractController
 		return $this->render('blog.html.twig');
 	}
 
+	/**
+	 * @Route("/contact", name="contact")
+	 */
+	public function contact(){
+		return $this->render('contact.html.twig');
+	}
+
+	/**
+	 * @Route("/article", name="article")
+	 */
+	public function article(){
+		return $this->render('ArticleBlog.html.twig');
+	}
+
+	/**
+	 * @Route("/authentif", name="authentification")
+	 */
+	public function authentif(){
+		return $this->render('authentification.html.twig');
+	}
+
+	/**
+	 * @Route("/test", name="test")
+	 */
+	public function test(){
+		return $this->render('administration.html.twig');
+	}
+
+
+
+
+
+
+
 }

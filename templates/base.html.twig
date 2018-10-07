@@ -8,11 +8,12 @@
     <title>DigiTeam - agence digitale sport</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="{{ asset('/images/favicon.ico') }}" />
+    <link rel="icon" href="{{ asset('/images/favicon.ico') }}" />
 
     <title>{% block title %}DigiTeam{% endblock %}</title>
 
     {% block stylesheets %}
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
@@ -32,6 +33,7 @@
         <link rel="stylesheet" href="{{ asset('bootstrap/css/style.css') }}" />
         <!--Theme Responsive css-->
         <link rel="stylesheet" href="{{ asset('bootstrap/css/responsive.css') }}" />
+        <link rel="stylesheet" href="{{ asset('bootstrap/css/agency.css') }}" />
         <link rel="stylesheet" href="{{ asset('stylperso/style.css') }}" />
     {% endblock %}
 
@@ -77,7 +79,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="{{ path('accueil') }}">
-                    <img src="bootstrap/images/logo.png" class="logo" alt="">
+                    <img src="/images/logo.png" class="logo" alt="">
                     <!--<img src="assets/images/footer-logo.png" class="logo logo-scrolled" alt="">-->
                 </a>
             </div>
@@ -88,11 +90,11 @@
                 <ul class="nav navbar-nav navbar-center">
                     <li><a href="{{ path('accueil') }}">Accueil</a></li>
                     <li><a href="{{path('agency') }}">Agence</a></li>
-                    <li><a href="#expertise">Expertises</a></li>
+                    <li><a href="{{ path('accueil') }}#expertise">Expertises</a></li>
                     <li><a href="">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="{{ path('accueil') }}#portfolio">Portfolio</a></li>
                     <li><a href="{{ path('blog') }}">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="{{ path('contact') }}">Contact</a></li>
                 </ul>
 
             </div><!-- /.navbar-collapse -->
@@ -119,6 +121,7 @@
                 <a target="_blank" href="http://bootstrapthemes.co">Bootstrap Themes</a>
                 2016. All Rights Reserved
             </p>
+            <a href="{{ path('authentification') }}">Administration</a>
         </div>
     </div>
 </footer>

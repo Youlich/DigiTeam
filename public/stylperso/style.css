@@ -1,3 +1,54 @@
+.logoDT{
+    height: 70px;
+    width: 70px;
+    vertical-align: top;
+}
+
+nav.navbar.bootsnav {
+    background-color: #327cf9;
+    height: 150px;
+    border-bottom: none;
+}
+
+#navbar-menu, .attr-nav{
+    padding-top: 30px;
+}
+nav.navbar.bootsnav ul.nav > li > a, .attr-nav > ul > li > a {
+    color: white;
+    background-color: transparent !important;
+
+}
+
+nav.navbar.bootsnav.no-background.white ul.nav > li.active > a {
+
+    color: #f9af32;
+
+}
+nav.navbar.bootsnav ul.nav li.active > a {
+    color: #f9af32;
+}
+
+.top-search {
+    padding: 0px 0;
+    display: none;
+    line-height: 30px;
+}
+
+h1 {
+    color: #f9af32;
+
+}
+
+.bg-orange {
+
+    background-color: #f9af32;
+
+}
+
+.overlay{
+    background-image: url("/images/action.jpg");
+}
+
 .scrollup::after {
     content: "\f106";
 }
@@ -58,11 +109,13 @@ li {
 }
 
 @media screen and (max-width:500px) {
-    .navbar-header{
-        height:100px;
+    nav.navbar.navbar{
+     height: 150px;
     }
-    .logo{
-        padding-top: 30px;
+    .logoDT{
+        padding-top: 15px;
+        padding-bottom: 0;
+        vertical-align: auto;
     }
     h1.text-yellow{
         font-size: 80px;
@@ -119,6 +172,7 @@ li {
 
     transition: all .5s;
 }
+/*image qui défile*/
 .test{
     background-attachment: fixed;
     background-image: url("https://www.lagence123.com/images/parallax/projet-cornilleau-bg02.jpg");
@@ -128,4 +182,10 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
+}
+
+.card{
+
+    background : yellow;
+    height : 226px;
 }

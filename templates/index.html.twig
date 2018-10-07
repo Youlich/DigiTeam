@@ -34,6 +34,7 @@
         <link rel="stylesheet" href="{{ asset('stylperso/style.css') }}" />
     {% endblock %}
 </head>
+
 <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
 
     <!-- Start Top Search -->
@@ -68,7 +69,7 @@
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand" href="{{ path('accueil') }}">
-                <img src="bootstrap/images/logo.png" class="logo" alt="">
+                <img src="/images/logo.png" class="logoDT" alt="">
                 <!--<img src="assets/images/footer-logo.png" class="logo logo-scrolled" alt="">-->
             </a>
         </div>
@@ -83,7 +84,7 @@
                 <li><a href="{{ path ('services') }}">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="{{ path('blog') }}">Blog</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="{{ path('contact') }}">Contact</a></li>
             </ul>
 
         </div><!-- /.navbar-collapse -->
@@ -107,7 +108,7 @@
                         <div class="hello">
                             <div class="slid_item">
                                 <div class="home_text ">
-                                    <h1 class="text-yellow">Welcome to DigiTeam</h1>
+                                    <h1 class="">Welcome to DigiTeam</h1>
                                     <h3 class="text-white text-uppercase">Création de sites internet et Webmarketing</h3>
                                 </div>
                             </div><!-- End off slid item -->
@@ -131,7 +132,7 @@
 
 
     <!--agence Section-->
-    <section id="agence" class="about bg-yellow roomy-80">
+    <section id="agence" class="about bg-orange roomy-80">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -175,19 +176,19 @@
                                     <div class="col-xs-6">
                                         <div class="features_item_text">
                                             <img src="{{ asset('bootstrap//images/featured1.jpg') }}" alt="" class="img-circle" />
-                                            <p class="m-top-20">Développement</p>
+                                            <p class="m-top-20">Web</p>
                                         </div>
                                     </div>
                                     <div class="col-xs-6">
                                         <div class="features_item_text">
                                             <img src="{{ asset('bootstrap//images/featured2.jpg') }}" alt="" class="img-circle" />
-                                            <p class="m-top-20">Web Marketing</p>
+                                            <p class="m-top-20">Consulting</p>
                                         </div>
                                     </div>
                                     <div class="col-xs-6">
                                         <div class="features_item_text m-top-50">
                                             <img src="{{ asset('bootstrap//images/featured3.jpg') }}" alt="" class="img-circle" />
-                                            <p class="m-top-20">Conseil</p>
+                                            <p class="m-top-20">Inbound marketing</p>
                                         </div>
                                     </div>
                                     <div class="col-xs-6">
@@ -209,24 +210,24 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="90%">
-                                                <label>Développement</label>
+                                                <label>Web</label>
                                                 <div class="teamskillbar-bar" style="width: 80%;"></div>
                                             </div> <!-- End Skill Bar -->
 
                                             <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="90%">
-                                                <label>Web Marketing</label>
+                                                <label>Consulting</label>
                                                 <div class="teamskillbar-bar" style="width: 75%;"></div>
                                             </div> <!-- End Skill Bar -->
                                         </div>
 
                                         <div class="col-sm-6">
-                                            <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="75%">
-                                                <label>Web Design</label>
+                                            <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="90%">
+                                                <label>Inbound marketing</label>
                                                 <div class="teamskillbar-bar" style="width: 90%;"></div>
                                             </div> <!-- End Skill Bar -->
 
                                             <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="98%">
-                                                <label>Conseil</label>
+                                                <label>Design</label>
                                                 <div class="teamskillbar-bar" style="width: 98%;"></div>
                                             </div> <!-- End Skill Bar -->
                                         </div>
@@ -341,7 +342,7 @@
 
 
     <!-- Newsletter -->
-    <section id="newsletter" class="about bg-yellow roomy-80">
+    <section id="newsletter" class="about bg-orange roomy-80">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -380,6 +381,8 @@
                 by
                 <a target="_blank" href="http://bootstrapthemes.co">Bootstrap Themes</a>
                 2016. All Rights Reserved
+                <a href="{{ path('authentification') }}">Administration</a>
+                <a href="{{ path('test') }}">test_admin</a>
             </p>
         </div>
     </div>
