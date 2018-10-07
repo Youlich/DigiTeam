@@ -67,10 +67,7 @@ h1 {
 /* Fin changement couleur texte*/
 
 
-.roomy-80 {
-    padding-top: 20px;
-    padding-bottom: 80px;
-}
+
 
 
 .overlay{
@@ -212,4 +209,22 @@ li {
 
     background : #f9af32;
     height : 226px;
+}
+
+
+.box1{
+    background: #c5b1c7;
+    height: 200px;
+    margin-bottom: 0;
+}
+.box2{
+    background: #f9af32;
+    height: 200px;
+    margin-bottom: 0;
+}
+.box3{
+    background: #327cf9;
+    height: 200px;
+    margin-bottom: 0;
+
 }
