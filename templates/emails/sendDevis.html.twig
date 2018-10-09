@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta content="width=device-width">
+    <title>{% block title %}DigiTeam{% endblock %}</title>
+
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('stylperso/mail.css') }}" />
+    {% endblock %}
+
+</head>
+<body style="margin:0px; padding:0px; -webkit-text-size-adjust:none;">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:white" >
+    <tbody>
+    <tr>
+        <td align="center" bgcolor="white">
+            <table  cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                <tr>
+                    <td class="w640"  width="640" height="10"></td>
+                </tr>
+
+                <tr>
+                    <td align="center" class="w640"  width="640" height="20"> <a style="color:black; font-size:12px;" href="#"><span style="color:black; font-size:12px;">Voir le contenu de ce mail en ligne</span></a> </td>
+                </tr>
+                <tr>
+                    <td class="w640"  width="640" height="10"></td>
+                </tr>
+
+
+                <!-- entete -->
+                <tr class="pagetoplogo">
+                    <td class="w640"  width="640">
+                        <table  class="w640"  width="640" cellpadding="0" cellspacing="0" border="0" bgcolor="#327cf9">
+                            <tbody>
+                            <tr>
+                                <td class="w30"  width="30"></td>
+                                <td  class="w580"  width="580" valign="middle" align="center">
+                                    <div class="pagetoplogo-content">
+                                        <img class="w580" src="/images/logo.png" alt="Mon Logo" width="15%" height="15%"/>
+                                    </div>
+                                </td>
+                                <td class="w30"  width="30"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+
+
+                <!-- contenu -->
+                <tr class="content">
+                    <td class="w640" class="w640"  width="640" bgcolor="#708090">
+                        <table class="w640"  width="640" cellpadding="0" cellspacing="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td  class="w30"  width="30"></td>
+                                <td  class="w580"  width="580">
+                                    <!-- une zone de contenu -->
+                                    <table class="w580"  width="580" cellpadding="0" cellspacing="0" border="0">
+                                        <tbody>
+                                        <tr>
+                                            <td class="w580"  width="580">
+                                                <h2 style="color:black; font-size:22px; padding-top:12px;">
+                                                    Votre demande de devis  </h2>
+
+                                                <div align="left" class="article-content">
+                                                    <p> [Madame/Monsieur],</p>
+                                                    <p>
+                                                        Suite à votre demande de devis en date du [date] depuis notre site http://digiteam-p5.com concernant,
+                                                        nous vous prions de trouver ci-joint notre proposition commerciale. </p>
+                                                        <p>Cette proposition tient compte des éléments de votre demande suivants :
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div align="left" class="article-content">
+                                                    <p>
+                                                    <ul style="list-style: none;">{# {% for service in devis.service %}
+                                                            <li></li>
+                                                        {% endfor %}#}
+                                                        <li>pack starter</li>
+                                                    </ul>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Nous tenons à vous préciser que ce devis est valable jusqu'au [date].</p>
+                                                <p>Nous vous remercions donc de nous le retourner revêtu de la mention « bon pour accord » suivie de votre signature et de la date.</p>
+                                                <p>Avant toute acceptation, Digiteam reste bien entendu à votre entière disposition pour tout complément d'information.</p>
+                                                <p>Vous en souhaitant bonne réception, nous vous prions d'agréer, [Madame/Monsieur], l'expression de mes salutations distinguées.</p>
+                                            </td>
+                                        </tr>
+                                          <br/><br/>
+
+                                        <tr>
+                                            <td><hr>
+                                                <div class="pagetoplogo-content">
+                                                    <img class="w580" src="/images/logo.png" alt="Mon Logo" width="10%" height="10%"/>
+                                                    <h4>DigiTeam</h4>
+                                                    <p>3 rue de la Comédie
+                                                    34000 Montpellier</p>
+                                                    <p>Tél : 04-67-00-00-12</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+                                    </table>
+
+
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+
+
+
+                <!-- pied de page -->
+                <tr class="pagebottom">
+                    <td class="w640"  width="640">
+                        <table class="w640"  width="640" cellpadding="0" cellspacing="0" border="0" bgcolor="#327cf9">
+                            <tbody>
+                            <tr>
+                                <td colspan="5" height="10"></td>
+                            </tr>
+                            <tr>
+                                <td class="w30"  width="30"></td>
+                                <td class="w580"  width="580" valign="top">
+                                    <p align="right" class="pagebottom-content-left">
+                                        <a style="color:#f9af32;" href="http://digiteam-p5.com"><span style="color:#f9af32;">Site digiteam</span></a>
+                                    </p>
+                                </td>
+
+                                <td class="w30"  width="30"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="5" height="10"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="w640"  width="640" height="60"></td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

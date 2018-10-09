@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<body>
+
+<div class="titlepage">
+
+    <div class="container">
+        <div class="">
+            <div class="main_home text-center">
+                <div class="col-md-12">
+                    <div class="">
+                        <div class="">
+                            <div class="home_text ">
+                                <h1 class="text-yellow">Plan du site DigiTeam</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/><br/>
+
+<div class="container">
+    <div class="text-center">
+    <h2><a href="{{ url('accueil') }}" style="text-decoration-line: underline">Accueil</a></h2>
+    <h2><a href="{{ url('agency') }}" style="text-decoration-line: underline">Agence</a></h2>
+    <h2><a href="{{ url('expertise') }}" style="text-decoration-line: underline">Expertises</a></h2>
+    <h2><a href="{{ url('services') }}" style="text-decoration-line: underline">Services</a></h2>
+    <h2><a href="{{ url('blog') }}" style="text-decoration-line: underline">Blog</a></h2>
+    <h2><a href="{{ url('contact') }}" style="text-decoration-line: underline">Contact</a></h2>
+    <h2><a href="{{ url('mentionsLegales') }}" style="text-decoration-line: underline">Mentions légales et politique de confidentialité</a></h2>
+    </div>
+</div><br/><br/>
+
+{% endblock %}

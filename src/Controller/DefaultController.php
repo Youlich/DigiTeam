@@ -54,7 +54,7 @@ class DefaultController extends AbstractController
 	 * @Route("/article", name="article")
 	 */
 	public function article(){
-		return $this->render('ArticleBlog.html.twig');
+		return $this->render('articleBlog.html.twig');
 	}
 
 	/**
@@ -70,6 +70,28 @@ class DefaultController extends AbstractController
 	public function test(){
 		return $this->render('administration.html.twig');
 	}
+
+	/**
+ * @Route("/siteMap", name="siteMap")
+ */
+	public function sitemap(){
+		return $this->render('siteMap.html.twig');
+	}
+
+	/**
+	 * @Route("/MentionsLegales", name="mentionsLegales")
+	 */
+	public function mentionsLegales(){
+		return $this->render('mentionsLegales.html.twig');
+	}
+
+	/**
+	 * @Route("/mail", name="mail")
+	 */
+	public function mail(){
+		return $this->render('/emails/sendDevis.html.twig');
+	}
+
 
 
 
