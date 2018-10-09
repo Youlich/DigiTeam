@@ -235,12 +235,20 @@ li {
 
 /* Fin agence*/
 
-.card{
 
+/*expertises*/
+
+.box{
+
+}
+
+.card{
+    padding-top: 40%; /* poussé de la moitié de hauteur du référent */
     background : #f9af32;
     height : 226px;
 }
 
+/*contact*/
 
 .box1{
     background: #c5b1c7;

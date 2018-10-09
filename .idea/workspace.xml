@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a069febb-8ff5-4ae3-b480-962e2a62823c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/faviconDT.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylperso/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylperso/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/agency.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/agency.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/authentification.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/authentification.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/head.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/head.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/expertise.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/expertise.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/services.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/stylperso/style.css">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="219" column="27" lean-forward="true" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
+            <state relative-caret-position="220">
+              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="41" />
+              <folding>
+                <element signature="e#34#99#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,8 +36,17 @@
       <file leaf-file-name="services.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/services.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="520">
+              <caret line="125" column="57" selection-start-line="125" selection-start-column="57" selection-end-line="125" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="49" column="26" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -43,8 +54,17 @@
       <file leaf-file-name="expertise.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/expertise.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+            <state relative-caret-position="438">
+              <caret line="274" column="57" selection-start-line="274" selection-start-column="57" selection-end-line="274" selection-end-column="57" />
+              <folding>
+                <element signature="e#1287#1349#0#HTML" expanded="true" />
+                <element signature="e#1582#1622#0#HTML" expanded="true" />
+                <element signature="e#1883#1923#0#HTML" expanded="true" />
+                <element signature="e#2752#2777#0#HTML" expanded="true" />
+                <element signature="e#6508#6533#0#HTML" expanded="true" />
+                <element signature="e#9479#9504#0#HTML" expanded="true" />
+                <element signature="e#14708#14733#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,24 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="49" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="agency.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/agency.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="452">
-              <caret line="157" column="42" selection-start-line="157" selection-start-column="42" selection-end-line="157" selection-end-column="42" />
+              <caret line="171" column="61" selection-start-line="171" selection-start-column="61" selection-end-line="171" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
               </folding>
@@ -89,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="94" />
+            <state relative-caret-position="578">
+              <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -110,8 +117,17 @@
       <file leaf-file-name="blog.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="408">
+              <caret line="45" column="18" selection-start-line="42" selection-start-column="12" selection-end-line="45" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylperso/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="243" selection-start-line="243" selection-end-line="243" />
             </state>
           </provider>
         </entry>
@@ -144,6 +160,7 @@
       <find>attr-nav</find>
       <find>fa</find>
       <find>teams</find>
+      <find>box</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,13 +183,11 @@
         <option value="$PROJECT_DIR$/public/js/bootsnav.js" />
         <option value="$PROJECT_DIR$/t" />
         <option value="$PROJECT_DIR$/templates/portfolio.html.twig" />
-        <option value="$PROJECT_DIR$/templates/services.html.twig" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/templates/expertises.htm.twig" />
         <option value="$PROJECT_DIR$/public/stylperso/fonction.js" />
         <option value="$PROJECT_DIR$/public/bootstrap/js/agency.js" />
         <option value="$PROJECT_DIR$/templates/ArticleBlog.html.twig" />
-        <option value="$PROJECT_DIR$/templates/expertise.html.twig" />
         <option value="$PROJECT_DIR$/public/bootstrap/css/style.css" />
         <option value="$PROJECT_DIR$/public/stylperso/app.css" />
         <option value="$PROJECT_DIR$/public/stylperso/auth.css" />
@@ -186,11 +201,13 @@
         <option value="$PROJECT_DIR$/templates/administration.html.twig" />
         <option value="$PROJECT_DIR$/public/stylperso/contact.css" />
         <option value="$PROJECT_DIR$/templates/contact.html.twig" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/templates/head.html.twig" />
         <option value="$PROJECT_DIR$/templates/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/agency.html.twig" />
         <option value="$PROJECT_DIR$/public/stylperso/style.css" />
+        <option value="$PROJECT_DIR$/templates/expertise.html.twig" />
+        <option value="$PROJECT_DIR$/templates/services.html.twig" />
+        <option value="$PROJECT_DIR$/templates/agency.html.twig" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
       </list>
     </option>
   </component>
@@ -430,7 +447,7 @@
       <workItem from="1538310948708" duration="21384000" />
       <workItem from="1538421355682" duration="3518000" />
       <workItem from="1538640226479" duration="17106000" />
-      <workItem from="1538899067290" duration="42806000" />
+      <workItem from="1538899067290" duration="48394000" />
     </task>
     <task id="LOCAL-00001" summary="Travail préparatoire : page index = accueil et base.html.twig qui servira pour les autres templates.">
       <created>1537714726414</created>
@@ -495,11 +512,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538944864114</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="page accueil et agence terminées">
+      <created>1539072210610</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1539072210648</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135283000" />
+    <option name="totallyTimeSpent" value="140871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -511,7 +535,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292683" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292683" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22429305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22429305" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
@@ -562,7 +586,8 @@
     <MESSAGE value="ajout navbar et footer template admin, + admin.css associé" />
     <MESSAGE value="ajout navbar et footer template admin, + admin.css associé." />
     <MESSAGE value="début template contact : google map et box contact ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="début template contact : google map et box contact ok" />
+    <MESSAGE value="page accueil et agence terminées" />
+    <option name="LAST_COMMIT_MESSAGE" value="page accueil et agence terminées" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/expertise.html.twig">
@@ -701,16 +726,6 @@
     <entry file="file://$PROJECT_DIR$/config/services.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-          <folding>
-            <element signature="e#34#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/bootstrap/css/iconfont.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-27" />
@@ -770,13 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/expertise.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -790,47 +798,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/services.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/favicon.ico">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/head.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/bootstrap/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -839,20 +808,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylperso/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="243" selection-start-line="243" selection-end-line="243" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="45" column="18" selection-start-line="42" selection-start-column="12" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/expertise.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="274" column="57" selection-start-line="274" selection-start-column="57" selection-end-line="274" selection-end-column="57" />
+          <folding>
+            <element signature="e#1287#1349#0#HTML" expanded="true" />
+            <element signature="e#1582#1622#0#HTML" expanded="true" />
+            <element signature="e#1883#1923#0#HTML" expanded="true" />
+            <element signature="e#2752#2777#0#HTML" expanded="true" />
+            <element signature="e#6508#6533#0#HTML" expanded="true" />
+            <element signature="e#9479#9504#0#HTML" expanded="true" />
+            <element signature="e#14708#14733#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/services.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="125" column="57" selection-start-line="125" selection-start-column="57" selection-end-line="125" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/agency.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
-          <caret line="157" column="42" selection-start-line="157" selection-start-column="42" selection-end-line="157" selection-end-column="42" />
+          <caret line="171" column="61" selection-start-line="171" selection-start-column="61" selection-end-line="171" selection-end-column="61" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylperso/style.css">
+    <entry file="file://$PROJECT_DIR$/templates/head.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="219" column="27" lean-forward="true" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="e#34#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
         </state>
       </provider>
     </entry>
