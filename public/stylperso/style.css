@@ -50,7 +50,6 @@ nav.navbar.bootsnav ul.nav li.active > a {
     border-left: 3px solid #f9af32;
 }
 
-
 h1 {
     color: #f9af32;
 }
@@ -59,9 +58,22 @@ h1 {
     background-color: #f9af32;
 }
 
-
 .btn-card:hover {
     background-color: #f9af32; !important;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: #f9af32;
+    border-color: #f9af32;
+}
+
+.teams_item ul li a:hover i {
+    color: #f9af32;
+}
+
+.menu:hover {
+    color: #f9af32;
 }
 
 /* Fin changement couleur texte*/
@@ -118,9 +130,7 @@ li {
     transition: all 0.3s ease-out;
 }
 
-.menu:hover {
-    color: #f9af32;
-}
+
 
 .m-top-80 {
     margin-top: 0px;
@@ -137,6 +147,10 @@ li {
     }
     #navbar-menu, .attr-nav{
         padding-top: 5px;
+    }
+    nav.navbar.bootsnav.no-background {
+        background-color: transparent;
+        border: none;
     }
     h1.text-yellow{
         font-size: 80px;
@@ -193,17 +207,33 @@ li {
 
     transition: all .5s;
 }
+
+/*Agence*/
 /*image qui défile*/
-.test{
+.imgAgence{
     background-attachment: fixed;
-    background-image: url("https://www.lagence123.com/images/parallax/projet-cornilleau-bg02.jpg");
-    background-position: 50% 50%;
+    background-image: url("/images/action.jpg");
     background-position-x: 50%;
     background-position-y: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
+    height:800px;
 }
+
+.presentation{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: white;
+    color : black;
+}
+
+#teams {
+    background-color: white;
+    padding-top: 5%;
+}
+
+/* Fin agence*/
 
 .card{
 
