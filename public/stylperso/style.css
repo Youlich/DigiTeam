@@ -166,7 +166,7 @@ li {
     }
 }
 
-/*blog*/
+/*article du blog*/
 
 .imageblog{
     display: block;
@@ -185,6 +185,9 @@ li {
     width: 221px;
     border: none;
 }
+
+/*fin article blog*/
+
 .port-image
 {
     width: 100%;
