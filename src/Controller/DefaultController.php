@@ -23,7 +23,7 @@ class DefaultController extends AbstractController
     }
 
 	/**
-	 * @Route("/agency", name="agency")
+	 * @Route("/agency", name="agenceDigiTeam")
 	 */
 	public function agency(){
 		return $this->render('agency.html.twig');
@@ -62,13 +62,6 @@ class DefaultController extends AbstractController
 	 */
 	public function authentif(){
 		return $this->render('authentification.html.twig');
-	}
-
-	/**
-	 * @Route("/test", name="test")
-	 */
-	public function test(){
-		return $this->render('administration.html.twig');
 	}
 
 	/**

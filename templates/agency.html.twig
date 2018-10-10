@@ -1,7 +1,23 @@
-{% extends 'base.html.twig' %}
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>DigiTeam - agence digitale sport</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ asset('/images/favicon.ico') }}" />
 
-{% block body %}
+    <title>{% block title %}DigiTeam{% endblock %}</title>
+
+    {% include 'layout/stylesheets.html.twig' %}
+
+</head>
+
     <body>
+    {% include 'layout/navbar.html.twig' %}
 
     <section id="titleAgence" class="titleAgence">
         <div class="imgAgence">
@@ -174,12 +190,9 @@
     </section><!-- End off Valeurs section -->
 
     <a href="#" class="scrollup" style="display: block;"></a>
-    </body>
 
-{% endblock %}
 
-    {% block javascripts %}
-        {{ parent() }}
-
-    {% endblock %}
+{% include 'layout/footer.html.twig' %}
+</body>
+{% include 'layout/javascripts.html.twig' %}
 

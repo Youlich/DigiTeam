@@ -1,5 +1,20 @@
-{% include 'head.html.twig' %}
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>DigiTeam - agence digitale sport</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ asset('/images/favicon.ico') }}" />
 
+    <title>{% block title %}DigiTeam{% endblock %}</title>
+
+    {% include 'layout/stylesheets.html.twig' %}
+
+</head>
 
 <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
 
@@ -40,7 +55,6 @@
             </a>
         </div>
         <!-- End Header Navigation -->
-
         <!-- navbar menu -->
         <div class="collapse navbar-collapse" id="navbar-menu">
             <ul class="nav navbar-nav navbar-center">
@@ -52,16 +66,12 @@
                 <li><a href="{{ path('blog') }}">Blog</a></li>
                 <li><a href="{{ path('contact') }}">Contact</a></li>
             </ul>
-
         </div><!-- /.navbar-collapse -->
-
-
-
     </div>
-
 </nav>
-    <body data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
-    <div class="wrapper">
+
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
+<div class="wrapper">
 
     <!--Accueil Section-->
 
@@ -115,104 +125,104 @@
     </section>
     <!--End agence Section-->
 
-        <!--Expertises Section-->
-        <section id="expertise" class="features bg-white">
-            <div class="container">
-                <div class="row">
-                    <div class="main_features fix roomy-70">
+    <!--Expertises Section-->
+    <section id="expertise" class="features bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="main_features fix roomy-70">
 
-                        <div class="col-md-5">
-                            <div class="features_item">
-                                <div class="head_title">
-                                    <h2 class="text-uppercase">Notre <strong>Expertise</strong></h2>
-                                </div>
-                                <div class="featured_content">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit donec fringilla iaculis facilisis
-                                        morbi nulla lectus, luctus interdum eu ultricies ac tortor maecenas nec massa sit
-                                        amet erat condimentum porttitor ac quis turpis.</p>
-                                </div>
+                    <div class="col-md-5">
+                        <div class="features_item">
+                            <div class="head_title">
+                                <h2 class="text-uppercase">Notre <strong>Expertise</strong></h2>
                             </div>
-                        </div>
-
-                        <div class="col-md-6 col-md-offset-1 sm-m-top-50">
-                            <div class="features_item2_area">
-                                <div class="features_item2 text-center">
-                                    <div class="divider_horizontal"></div>
-                                    <div class="divider_vertical"></div>
-                                    <div class="col-xs-6">
-                                        <div class="features_item_text">
-                                            <img src="{{ asset('bootstrap//images/featured1.jpg') }}" alt="" class="img-circle" />
-                                            <p class="m-top-20">Web</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <div class="features_item_text">
-                                            <img src="{{ asset('bootstrap//images/featured2.jpg') }}" alt="" class="img-circle" />
-                                            <p class="m-top-20">Consulting</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <div class="features_item_text m-top-50">
-                                            <img src="{{ asset('bootstrap//images/featured3.jpg') }}" alt="" class="img-circle" />
-                                            <p class="m-top-20">Inbound marketing</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <div class="features_item_text m-top-50">
-                                            <img src="{{ asset('bootstrap//images/featured4.jpg') }}" alt="" class="img-circle" />
-                                            <p class="m-top-20">Design</p>
-                                        </div>
-                                    </div>
-
-                                </div>
+                            <div class="featured_content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit donec fringilla iaculis facilisis
+                                    morbi nulla lectus, luctus interdum eu ultricies ac tortor maecenas nec massa sit
+                                    amet erat condimentum porttitor ac quis turpis.</p>
                             </div>
-                        </div>
-                        <div class="col-md-12">
-                            <br/><br/>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="skill">
-                                <div class="team_content_details_skills m-top-50">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="90%">
-                                                <label>Web</label>
-                                                <div class="teamskillbar-bar" style="width: 80%;"></div>
-                                            </div> <!-- End Skill Bar -->
-
-                                            <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="90%">
-                                                <label>Consulting</label>
-                                                <div class="teamskillbar-bar" style="width: 75%;"></div>
-                                            </div> <!-- End Skill Bar -->
-                                        </div>
-
-                                        <div class="col-sm-6">
-                                            <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="90%">
-                                                <label>Inbound marketing</label>
-                                                <div class="teamskillbar-bar" style="width: 90%;"></div>
-                                            </div> <!-- End Skill Bar -->
-
-                                            <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="98%">
-                                                <label>Design</label>
-                                                <div class="teamskillbar-bar" style="width: 98%;"></div>
-                                            </div> <!-- End Skill Bar -->
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div><!-- End off skill -->
-                            <br/><br/><br/><br/>
-                        </div><!-- End col-md-12 -->
-
-                        <div align="center" >
-                            <a href="{{ path ('expertise') }}" class="btn btn-default">En savoir plus</a>
                         </div>
                     </div>
-                </div><!-- End off row -->
-            </div><!-- End off container -->
-        </section>
 
-        <!--End of Expertises-->
+                    <div class="col-md-6 col-md-offset-1 sm-m-top-50">
+                        <div class="features_item2_area">
+                            <div class="features_item2 text-center">
+                                <div class="divider_horizontal"></div>
+                                <div class="divider_vertical"></div>
+                                <div class="col-xs-6">
+                                    <div class="features_item_text">
+                                        <img src="{{ asset('bootstrap//images/featured1.jpg') }}" alt="" class="img-circle" />
+                                        <p class="m-top-20">Web</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="features_item_text">
+                                        <img src="{{ asset('bootstrap//images/featured2.jpg') }}" alt="" class="img-circle" />
+                                        <p class="m-top-20">Consulting</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="features_item_text m-top-50">
+                                        <img src="{{ asset('bootstrap//images/featured3.jpg') }}" alt="" class="img-circle" />
+                                        <p class="m-top-20">Inbound marketing</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="features_item_text m-top-50">
+                                        <img src="{{ asset('bootstrap//images/featured4.jpg') }}" alt="" class="img-circle" />
+                                        <p class="m-top-20">Design</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <br/><br/>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="skill">
+                            <div class="team_content_details_skills m-top-50">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="90%">
+                                            <label>Web</label>
+                                            <div class="teamskillbar-bar" style="width: 80%;"></div>
+                                        </div> <!-- End Skill Bar -->
+
+                                        <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="90%">
+                                            <label>Consulting</label>
+                                            <div class="teamskillbar-bar" style="width: 75%;"></div>
+                                        </div> <!-- End Skill Bar -->
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="90%">
+                                            <label>Inbound marketing</label>
+                                            <div class="teamskillbar-bar" style="width: 90%;"></div>
+                                        </div> <!-- End Skill Bar -->
+
+                                        <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="98%">
+                                            <label>Design</label>
+                                            <div class="teamskillbar-bar" style="width: 98%;"></div>
+                                        </div> <!-- End Skill Bar -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div><!-- End off skill -->
+                        <br/><br/><br/><br/>
+                    </div><!-- End col-md-12 -->
+
+                    <div align="center" >
+                        <a href="{{ path ('expertise') }}" class="btn btn-default">En savoir plus</a>
+                    </div>
+                </div>
+            </div><!-- End off row -->
+        </div><!-- End off container -->
+    </section>
+
+    <!--End of Expertises-->
 
 
     <!--Portfolio Section-->
@@ -313,38 +323,38 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="main_about text-center">
-                <h1 class="text-black">Newsletter</h1>
-                <div>
-                    <form>
-                        <div class="container">
-                        <div class="row">
-                            <div class="col-md-5" style="margin-left: 15%;">
-                                <input type="text" class="form-control" name="prénom" placeholder="Votre prénom" style="width: 20%;min-width: 300px;display: block;margin: 0 auto;margin-top: 25px;margin-bottom: 25px;" />
-                                <input type="text" class="form-control" name="nom" placeholder="Votre nom" style="width: 20%;min-width: 300px;display: block;margin: 0 auto;margin-top: 25px;margin-bottom: 25px;" />
-                                <input type="email" class="form-control" name="email" placeholder="email@exemple.com" style="width: 20%;min-width: 300px;display: block;margin: 0 auto;margin-top: 25px;margin-bottom: 25px;" />
-                            </div>
-                            <div class="col-md-3" style="padding-top: 8%;">
-                                <input type="submit" class="btn btn-primary" name="newsSubmit" id="newsSubmit" value="Valider">
-                            </div>
+                        <h1 class="text-black">Newsletter</h1>
+                        <div>
+                            <form>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-5" style="margin-left: 15%;">
+                                            <input type="text" class="form-control" name="prénom" placeholder="Votre prénom" style="width: 20%;min-width: 300px;display: block;margin: 0 auto;margin-top: 25px;margin-bottom: 25px;" />
+                                            <input type="text" class="form-control" name="nom" placeholder="Votre nom" style="width: 20%;min-width: 300px;display: block;margin: 0 auto;margin-top: 25px;margin-bottom: 25px;" />
+                                            <input type="email" class="form-control" name="email" placeholder="email@exemple.com" style="width: 20%;min-width: 300px;display: block;margin: 0 auto;margin-top: 25px;margin-bottom: 25px;" />
+                                        </div>
+                                        <div class="col-md-3" style="padding-top: 8%;">
+                                            <input type="submit" class="btn btn-primary" name="newsSubmit" id="newsSubmit" value="Valider">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <p id="resNewsletter"></p> <!--peut servir pour récolter le résultat-->
                         </div>
-                        </div>
-                    </form>
-                    <p id="resNewsletter"></p> <!--peut servir pour récolter le résultat-->
-                </div>
-            </div>
+                    </div>
                 </div>
             </div>
         </div>
-    <!-- newsletter / End -->
+        <!-- newsletter / End -->
     </section>
 
 
     <a href="#" class="scrollup" style="display: block;"></a>
 
-    </div>
-    </body>
-{% include 'footer.html.twig' %}
+</div>
 
+{% include 'layout/footer.html.twig' %}
+</body>
 
 {% block javascripts %}
     <!-- JS includes -->

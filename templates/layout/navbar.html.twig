@@ -1,5 +1,3 @@
-{% include 'head.html.twig' %}
-
 <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
 
     <!-- Start Top Search -->
@@ -42,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbar-menu">
             <ul class="nav navbar-nav navbar-center">
                 <li><a href="{{ path('accueil') }}">Accueil</a></li>
-                <li><a href="{{path('agency') }}">Agence</a></li>
+                <li><a href="{{path('agenceDigiTeam') }}">Agence</a></li>
                 <li><a href="{{ path('accueil') }}#expertise">Expertises</a></li>
                 <li><a href="{{ path ('services') }}">Services</a></li>
                 <li><a href="{{ path('accueil') }}#portfolio">Portfolio</a></li>
@@ -52,30 +50,3 @@
         </div><!-- /.navbar-collapse -->
     </div>
 </nav>
-
-
-
-{% block body %}
-{% endblock %}
-
-{% include 'footer.html.twig' %}
-
-    {% block javascripts %}
-        <!-- JS includes -->
-        <script type="text/javascript" src="{{ asset('bootstrap/js/vendor/jquery-1.11.2.min.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('bootstrap/js/vendor/bootstrap.min.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('bootstrap/js/jquery.magnific-popup.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('bootstrap/js/jquery.easing.1.3.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('bootstrap/js/slick.min.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('bootstrap/js/js.isotope.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('bootstrap/js/jquery.collapse.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('bootstrap/js/bootsnav.js') }}"></script>
-        <!-- paradise slider js -->
-        <script src="{{ asset('https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('bootstrap/js/plugins.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('bootstrap/js/main.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('bootstrap/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') }}"></script>
-    {% endblock %}
-
-
-</html>

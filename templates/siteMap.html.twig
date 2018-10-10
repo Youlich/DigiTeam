@@ -1,8 +1,23 @@
-{% extends 'base.html.twig' %}
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>DigiTeam - agence digitale sport</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ asset('/images/favicon.ico') }}" />
 
-{% block body %}
+    <title>{% block title %}DigiTeam{% endblock %}</title>
+
+    {% include 'layout/stylesheets.html.twig' %}
+
+</head>
 
 <body>
+{% include 'layout/navbar.html.twig' %}
 
 <div class="titlepage">
 
@@ -27,7 +42,7 @@
 <div class="container">
     <div class="text-center">
     <h2><a href="{{ url('accueil') }}" style="text-decoration-line: underline">Accueil</a></h2>
-    <h2><a href="{{ url('agency') }}" style="text-decoration-line: underline">Agence</a></h2>
+    <h2><a href="{{ url('agenceDigiTeam') }}" style="text-decoration-line: underline">Agence</a></h2>
     <h2><a href="{{ url('expertise') }}" style="text-decoration-line: underline">Expertises</a></h2>
     <h2><a href="{{ url('services') }}" style="text-decoration-line: underline">Services</a></h2>
     <h2><a href="{{ url('blog') }}" style="text-decoration-line: underline">Blog</a></h2>
@@ -36,4 +51,6 @@
     </div>
 </div><br/><br/>
 
-{% endblock %}
+{% include 'layout/footer.html.twig' %}
+</body>
+{% include 'layout/javascripts.html.twig' %}
