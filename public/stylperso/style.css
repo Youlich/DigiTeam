@@ -54,6 +54,10 @@ h1 {
     color: #f9af32;
 }
 
+.text-orange{
+    color: #f9af32;
+}
+
 .bg-orange {
     background-color: #f9af32;
 }
@@ -78,7 +82,9 @@ h1 {
 
 /* Fin changement couleur texte*/
 
+.btn {
 
+}
 
 
 
@@ -161,6 +167,24 @@ li {
 }
 
 /*blog*/
+
+.imageblog{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20%;
+}
+
+.btn{
+    background-color: #f9af32;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 54px;
+    width: 221px;
+    border: none;
+}
 .port-image
 {
     width: 100%;
