@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a069febb-8ff5-4ae3-b480-962e2a62823c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/layout/javascripts.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylperso/devis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/devis.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylperso/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylperso/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/administration.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/agency.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/agency.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/articleBlog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articleBlog.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/navbar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/expertise.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/expertise.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/footer.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/head.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/stylesheets.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mentionsLegales.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mentionsLegales.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/services.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/siteMap.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/siteMap.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/stylesheets.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/stylesheets.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,34 +22,124 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html.twig">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5308">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#34#99#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stylesheets.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/layout/stylesheets.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="devis.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/devis.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="61" column="86" selection-start-line="61" selection-start-column="86" selection-end-line="61" selection-end-column="86" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#712#717#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1897#1950#0#HTML" expanded="true" />
+                <element signature="e#2047#2111#0#HTML" expanded="true" />
+                <element signature="e#2289#2353#0#HTML" expanded="true" />
+                <element signature="e#2505#2570#0#HTML" expanded="true" />
+                <element signature="e#2664#2729#0#HTML" expanded="true" />
+                <element signature="e#2780#2845#0#HTML" expanded="true" />
+                <element signature="e#2894#2959#0#HTML" expanded="true" />
+                <element signature="e#3006#3070#0#HTML" expanded="true" />
+                <element signature="e#3105#3170#0#HTML" expanded="true" />
+                <element signature="e#3207#3272#0#HTML" expanded="true" />
+                <element signature="e#3304#3369#0#HTML" expanded="true" />
+                <element signature="e#3402#3467#0#HTML" expanded="true" />
+                <element signature="e#3500#3565#0#HTML" expanded="true" />
+                <element signature="e#3594#3659#0#HTML" expanded="true" />
+                <element signature="e#3693#3757#0#HTML" expanded="true" />
+                <element signature="e#3784#3849#0#HTML" expanded="true" />
+                <element signature="e#3981#4046#0#HTML" expanded="true" />
+                <element signature="e#4073#4138#0#HTML" expanded="true" />
+                <element signature="e#4173#4238#0#HTML" expanded="true" />
+                <element signature="e#4267#4332#0#HTML" expanded="true" />
+                <element signature="e#4367#4431#0#HTML" expanded="true" />
+                <element signature="e#4458#4523#0#HTML" expanded="true" />
+                <element signature="e#4570#4635#0#HTML" expanded="true" />
+                <element signature="e#4662#4727#0#HTML" expanded="true" />
+                <element signature="e#4761#4826#0#HTML" expanded="true" />
+                <element signature="e#4855#4920#0#HTML" expanded="true" />
+                <element signature="e#4955#5019#0#HTML" expanded="true" />
+                <element signature="e#5046#5111#0#HTML" expanded="true" />
+                <element signature="e#5201#5266#0#HTML" expanded="true" />
+                <element signature="e#5295#5360#0#HTML" expanded="true" />
+                <element signature="e#5394#5459#0#HTML" expanded="true" />
+                <element signature="e#5488#5553#0#HTML" expanded="true" />
+                <element signature="e#5588#5652#0#HTML" expanded="true" />
+                <element signature="e#5679#5744#0#HTML" expanded="true" />
+                <element signature="e#5779#5844#0#HTML" expanded="true" />
+                <element signature="e#5873#5938#0#HTML" expanded="true" />
+                <element signature="e#5973#6038#0#HTML" expanded="true" />
+                <element signature="e#6067#6132#0#HTML" expanded="true" />
+                <element signature="e#6167#6232#0#HTML" expanded="true" />
+                <element signature="e#6281#6346#0#HTML" expanded="true" />
+                <element signature="e#6408#6473#0#HTML" expanded="true" />
+                <element signature="e#6526#6591#0#HTML" expanded="true" />
+                <element signature="e#6653#6718#0#HTML" expanded="true" />
+                <element signature="e#6836#6902#0#HTML" expanded="true" />
+                <element signature="e#6966#7031#0#HTML" expanded="true" />
+                <element signature="e#7114#7180#0#HTML" expanded="true" />
+                <element signature="e#7342#7407#0#HTML" expanded="true" />
+                <element signature="e#7459#7524#0#HTML" expanded="true" />
+                <element signature="e#7662#7728#0#HTML" expanded="true" />
+                <element signature="e#7869#7935#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accueildevis.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/images/accueildevis.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="devis.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylperso/devis.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-267">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DEVIS_STARTER002.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/images/DEVIS_STARTER002.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layout/footer.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+            <state relative-caret-position="238">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -67,17 +147,8 @@
       <file leaf-file-name="expertise.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/expertise.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="391">
               <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mentionsLegales.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/mentionsLegales.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="106" column="44" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -85,53 +156,8 @@
       <file leaf-file-name="authentification.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/authentification.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agency.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/agency.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3281">
-              <caret line="193" selection-start-line="193" selection-end-line="196" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articleBlog.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/articleBlog.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="39" selection-end-line="19" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/services.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3315">
-              <caret line="195" selection-start-line="195" selection-end-line="200" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="siteMap.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/siteMap.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blog.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3264">
-              <caret line="192" selection-start-line="192" selection-end-line="194" selection-end-column="44" />
+            <state relative-caret-position="289">
+              <caret line="17" column="18" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -206,9 +232,7 @@
         <option value="$PROJECT_DIR$/templates/head.html.twig" />
         <option value="$PROJECT_DIR$/templates/planSite.html.twig" />
         <option value="$PROJECT_DIR$/public/stylperso/auth.css" />
-        <option value="$PROJECT_DIR$/templates/devis.html.twig" />
         <option value="$PROJECT_DIR$/templates/emails/SendDevis.html.twig" />
-        <option value="$PROJECT_DIR$/public/stylperso/devis.css" />
         <option value="$PROJECT_DIR$/templates/footer.html.twig" />
         <option value="$PROJECT_DIR$/public/stylperso/mail.css" />
         <option value="$PROJECT_DIR$/templates/emails/sendDevis.html.twig" />
@@ -226,11 +250,14 @@
         <option value="$PROJECT_DIR$/templates/services.html.twig" />
         <option value="$PROJECT_DIR$/templates/mentionsLegales.html.twig" />
         <option value="$PROJECT_DIR$/templates/administration.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/templates/layout/navbar.html.twig" />
         <option value="$PROJECT_DIR$/templates/siteMap.html.twig" />
-        <option value="$PROJECT_DIR$/templates/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/templates/layout/footer.html.twig" />
+        <option value="$PROJECT_DIR$/templates/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/layout/stylesheets.html.twig" />
+        <option value="$PROJECT_DIR$/public/stylperso/devis.css" />
+        <option value="$PROJECT_DIR$/templates/devis.html.twig" />
       </list>
     </option>
   </component>
@@ -374,7 +401,7 @@
               <item name="Digiteam" type="b2602c69:ProjectViewProjectNode" />
               <item name="Digiteam" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Digiteam" type="b2602c69:ProjectViewProjectNode" />
@@ -469,7 +496,8 @@
       <workItem from="1538310948708" duration="21384000" />
       <workItem from="1538421355682" duration="3518000" />
       <workItem from="1538640226479" duration="17106000" />
-      <workItem from="1538899067290" duration="89933000" />
+      <workItem from="1538899067290" duration="92520000" />
+      <workItem from="1539195548280" duration="7323000" />
     </task>
     <task id="LOCAL-00001" summary="Travail préparatoire : page index = accueil et base.html.twig qui servira pour les autres templates.">
       <created>1537714726414</created>
@@ -597,11 +625,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539164080880</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ajout des head dans tous les templates et réorganisation des fichiers">
+      <created>1539181380085</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1539181380085</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182410000" />
+    <option name="totallyTimeSpent" value="192320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -612,8 +647,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292683" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292683" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22429305" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3292683" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22686376" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
@@ -631,22 +666,22 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22429305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3292683" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3292683" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -673,9 +708,24 @@
     <MESSAGE value="mail prêt" />
     <MESSAGE value="page article terminée" />
     <MESSAGE value="envoi du front avant validation équipe" />
-    <option name="LAST_COMMIT_MESSAGE" value="envoi du front avant validation équipe" />
+    <MESSAGE value="ajout des head dans tous les templates et réorganisation des fichiers" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout des head dans tous les templates et réorganisation des fichiers" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/services.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3315">
+          <caret line="195" selection-start-line="195" selection-end-line="200" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3264">
+          <caret line="192" selection-start-line="192" selection-end-line="194" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/bootsnav.js" />
     <entry file="file://$PROJECT_DIR$/public/js/plugins.js" />
     <entry file="file://$PROJECT_DIR$/public/stylperso/scrollup.js" />
@@ -739,9 +789,6 @@
         <state relative-caret-position="-27" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/bootstrap/css/iconfont.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-27" />
@@ -751,9 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-27" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/css/ajax-loader.gif">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/bootstrap/css/bootsnav.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -767,12 +811,6 @@
         <state relative-caret-position="-27" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylperso/contact.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/bootstrap/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -780,42 +818,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/devis.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylperso/devis.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/action.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/DT.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylperso/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylperso/admin.css" />
     <entry file="file://$PROJECT_DIR$/public/stylperso/auth.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -834,16 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#1;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#td#0;n#tr#7;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#td#0;n#tr#7;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,13 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="177" column="1" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/stylesheets.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -875,23 +861,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/administration.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="92" column="44" lean-forward="true" selection-start-line="23" selection-end-line="92" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="45" />
-          <folding>
-            <element signature="e#34#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/administration.html.twig" />
     <entry file="file://$PROJECT_DIR$/templates/layout/navbar.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -915,7 +885,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/mentionsLegales.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
+        <state relative-caret-position="1802">
           <caret line="106" column="44" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
         </state>
       </provider>
@@ -934,13 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/authentification.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3264">
@@ -950,36 +913,133 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/expertise.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="391">
           <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/public/images/DEVIS_STARTER006.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/DEVIS_STARTER005.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/DEVIS_STARTER004.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/DEVIS_STARTER003.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5308">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="238">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/stylesheets.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/authentification.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylperso/devis.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/devis.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="61" column="86" selection-start-line="61" selection-start-column="86" selection-end-line="61" selection-end-column="86" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#712#717#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1897#1950#0#HTML" expanded="true" />
+            <element signature="e#2047#2111#0#HTML" expanded="true" />
+            <element signature="e#2289#2353#0#HTML" expanded="true" />
+            <element signature="e#2505#2570#0#HTML" expanded="true" />
+            <element signature="e#2664#2729#0#HTML" expanded="true" />
+            <element signature="e#2780#2845#0#HTML" expanded="true" />
+            <element signature="e#2894#2959#0#HTML" expanded="true" />
+            <element signature="e#3006#3070#0#HTML" expanded="true" />
+            <element signature="e#3105#3170#0#HTML" expanded="true" />
+            <element signature="e#3207#3272#0#HTML" expanded="true" />
+            <element signature="e#3304#3369#0#HTML" expanded="true" />
+            <element signature="e#3402#3467#0#HTML" expanded="true" />
+            <element signature="e#3500#3565#0#HTML" expanded="true" />
+            <element signature="e#3594#3659#0#HTML" expanded="true" />
+            <element signature="e#3693#3757#0#HTML" expanded="true" />
+            <element signature="e#3784#3849#0#HTML" expanded="true" />
+            <element signature="e#3981#4046#0#HTML" expanded="true" />
+            <element signature="e#4073#4138#0#HTML" expanded="true" />
+            <element signature="e#4173#4238#0#HTML" expanded="true" />
+            <element signature="e#4267#4332#0#HTML" expanded="true" />
+            <element signature="e#4367#4431#0#HTML" expanded="true" />
+            <element signature="e#4458#4523#0#HTML" expanded="true" />
+            <element signature="e#4570#4635#0#HTML" expanded="true" />
+            <element signature="e#4662#4727#0#HTML" expanded="true" />
+            <element signature="e#4761#4826#0#HTML" expanded="true" />
+            <element signature="e#4855#4920#0#HTML" expanded="true" />
+            <element signature="e#4955#5019#0#HTML" expanded="true" />
+            <element signature="e#5046#5111#0#HTML" expanded="true" />
+            <element signature="e#5201#5266#0#HTML" expanded="true" />
+            <element signature="e#5295#5360#0#HTML" expanded="true" />
+            <element signature="e#5394#5459#0#HTML" expanded="true" />
+            <element signature="e#5488#5553#0#HTML" expanded="true" />
+            <element signature="e#5588#5652#0#HTML" expanded="true" />
+            <element signature="e#5679#5744#0#HTML" expanded="true" />
+            <element signature="e#5779#5844#0#HTML" expanded="true" />
+            <element signature="e#5873#5938#0#HTML" expanded="true" />
+            <element signature="e#5973#6038#0#HTML" expanded="true" />
+            <element signature="e#6067#6132#0#HTML" expanded="true" />
+            <element signature="e#6167#6232#0#HTML" expanded="true" />
+            <element signature="e#6281#6346#0#HTML" expanded="true" />
+            <element signature="e#6408#6473#0#HTML" expanded="true" />
+            <element signature="e#6526#6591#0#HTML" expanded="true" />
+            <element signature="e#6653#6718#0#HTML" expanded="true" />
+            <element signature="e#6836#6902#0#HTML" expanded="true" />
+            <element signature="e#6966#7031#0#HTML" expanded="true" />
+            <element signature="e#7114#7180#0#HTML" expanded="true" />
+            <element signature="e#7342#7407#0#HTML" expanded="true" />
+            <element signature="e#7459#7524#0#HTML" expanded="true" />
+            <element signature="e#7662#7728#0#HTML" expanded="true" />
+            <element signature="e#7869#7935#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/footer.html.twig">
+    <entry file="file://$PROJECT_DIR$/public/images/accueildevis.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/DEVIS_STARTER002.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#34#99#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

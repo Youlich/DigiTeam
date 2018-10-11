@@ -1,0 +1,45 @@
+#page1-div {
+    position:relative;
+    width:1020px;
+    height:1360px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+.ft00 {
+    font-size:16px;
+    font-family:Raleway;
+    color:#000000;
+}
+.ft01 {
+    font-size:16px;
+    font-family:Kaushan;
+    color:#000000;
+}
+.ft02, .ft03{
+    font-size:18px;
+    font-family:Times;
+    color:#000000;
+}
+
+.ft04{
+    font-size:18px;
+    font-family:Times;
+    color:#ffffff;
+}
+
+.ft05 {
+    font-size:16px;
+    font-family:Times;
+    color:#000000;
+}
+.ft06{font-size:14px;font-family:Times;color:#ffffff;}
+.ft07{font-size:14px;font-family:Times;color:#ffffff;}
+.ft08{font-size:18px;font-family:Times;color:#ffffff;}
+.ft09{font-size:13px;font-family:Times;color:#000000;}
+.ft010{font-size:14px;line-height:20px;font-family:Times;color:#000000;}
+.ft011{font-size:18px;line-height:24px;font-family:Times;color:#000000;}
+.ft012{font-size:16px;line-height:21px;font-family:Times;color:#000000;}
+.ft013{font-size:13px;line-height:18px;font-family:Times;color:#000000;}

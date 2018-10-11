@@ -85,6 +85,13 @@ class DefaultController extends AbstractController
 		return $this->render('/emails/sendDevis.html.twig');
 	}
 
+	/**
+	 * @Route("/devis", name="devis")
+	 */
+	public function devis(){
+		return $this->render('devis.html.twig');
+	}
+
 
 
 
