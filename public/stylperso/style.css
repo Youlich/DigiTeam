@@ -250,6 +250,18 @@ li {
     height:800px;
 }
 
+.imgAgence2{
+    background-attachment: fixed;
+    background-image: url("/images/action.jpg");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height:400px;
+}
+
+
 .presentation{
     padding-top: 10%;
     padding-bottom: 10%;
@@ -291,4 +303,9 @@ li {
     height: 200px;
     margin-bottom: 0;
 
+}
+
+/*Portfolio*/
+#portfolio{
+    padding-bottom: 10%;
 }

@@ -2,8 +2,14 @@
 
 namespace App\Controller;
 
+use App\Form\ContactType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\Request;
+use App\Entity\Contact;
+use App\Entity\Devis;
+use App\Form\DevisType;
+use App\Service\addNewsletter;
 
 class DefaultController extends AbstractController
 {
@@ -16,39 +22,68 @@ class DefaultController extends AbstractController
     }
 
 	/**
-	 * @Route("/services", name="services")
+	 * @Route("/nos-services", name="services")
 	 */
     public function service(){
 	    return $this->render('services.html.twig');
     }
 
 	/**
-	 * @Route("/agency", name="agenceDigiTeam")
+	 * @Route("/presentation-de-notre-agence-Digiteam", name="agenceDigiTeam")
 	 */
 	public function agency(){
 		return $this->render('agency.html.twig');
 	}
 
 	/**
-	 * @Route("/expertise", name="expertise")
+	 * @Route("/nos-expertises", name="expertise")
 	 */
 	public function expertise(){
 		return $this->render('expertise.html.twig');
 	}
 
 	/**
-	 * @Route("/blog", name="blog")
+	 * @Route("/notre-blog", name="blog")
 	 */
 	public function blog(){
 		return $this->render('blog.html.twig');
 	}
 
 	/**
-	 * @Route("/contact", name="contact")
+	 * @Route("/contact-Digiteam", name="contact")
 	 */
-	public function contact(){
-		return $this->render('contact.html.twig');
+	public function contact(Request $request, addNewsletter $addNewsletter)
+	{
+		$contact = new Contact();
+
+		$form = $this->createForm(ContactType::class,$contact);
+
+		$form->handleRequest($request);
+
+		if($form->isSubmitted() && $form->isValid())
+		{
+			$manager = $this->getDoctrine()->getManager();
+
+			if($contact->getCaseNewsletter() == 'true')
+			{
+				$newsletter = $addNewsletter->add($contact);
+				$manager->persist($newsletter);
+			}
+
+
+			$manager->persist($contact);
+			$manager->flush();
+
+			return $this->redirectToRoute('accueil');
+		}
+		return $this->render('contact.html.twig', [
+			'controller_name' => 'DefaultController',
+			'form' => $form->createView(),
+		]);
 	}
+
+
+
 
 	/**
 	 * @Route("/article", name="article")
@@ -58,21 +93,21 @@ class DefaultController extends AbstractController
 	}
 
 	/**
-	 * @Route("/authentif", name="authentification")
+	 * @Route("/authentification-administration", name="authentification")
 	 */
 	public function authentif(){
 		return $this->render('authentification.html.twig');
 	}
 
 	/**
- * @Route("/siteMap", name="siteMap")
+ * @Route("/plan-du-site", name="siteMap")
  */
 	public function sitemap(){
 		return $this->render('siteMap.html.twig');
 	}
 
 	/**
-	 * @Route("/MentionsLegales", name="mentionsLegales")
+	 * @Route("/Mentions-Legales", name="mentionsLegales")
 	 */
 	public function mentionsLegales(){
 		return $this->render('mentionsLegales.html.twig');
@@ -86,17 +121,39 @@ class DefaultController extends AbstractController
 	}
 
 	/**
-	 * @Route("/devis", name="devis")
+	 * @Route("/devis-Digiteam", name="devis")
 	 */
-	public function devis(){
-		return $this->render('devis.html.twig');
+	public function devis(Request $request, addNewsletter $addNewsletter)
+	{
+		$devis = new Devis();
+
+		$form = $this->createForm(DevisType::class, $devis);
+
+		$form->handleRequest($request);
+
+		if($form->isSubmitted() && $form->isValid())
+		{
+			$devis->setDateAjout(new \DateTime());
+			$devis->setStatut('nouveaux');
+
+			$manager = $this->getDoctrine()->getManager();
+
+			if($devis->getCaseNewsletter() == 'true')
+			{
+				$newsletter = $addNewsletter->add($devis);
+				$manager->persist($newsletter);
+			}
+
+			$manager->persist($devis);
+			$manager->flush();
+
+			return $this->redirectToRoute('accueil');
+		}
+
+		return $this->render('contact.html.twig', [
+			'controller_name' => 'DefaultController',
+			'form' => $form->createView(),
+		]);
 	}
-
-
-
-
-
-
-
 
 }

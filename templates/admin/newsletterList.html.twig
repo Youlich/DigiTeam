@@ -1,0 +1,57 @@
+{% extends 'admin/admin.html.twig' %}
+
+{% block title %}Liste des abonnés aux newsletters{% endblock %}
+
+{% block body %}
+	
+	<h1>Liste des abonnés aux newsletters</h1>
+
+	<table class="table table-bordered table-striped table-condensed justify">
+
+		<thead>
+
+			<tr>
+				<th class="col-xs-2">Nom</th>
+			  	<th class="col-xs-2">Prénom</th>
+			  	<th class="col-xs-4">Email</th>
+			  	<th class="col-xs-2">Supprimer</th>
+			</tr>
+
+		</thead>
+
+		<tbody>
+
+			{% for newsletter in newsletters %}
+				<tr>
+					<th>{{ newsletter.nom }}</th>
+			        <th>{{ newsletter.prenom }}</th>
+			        <th>{{ newsletter.email }}</th>
+			        <th>
+
+			        	<button class="btn btn-danger" data-toggle="modal" href="#delete{{ newsletter.id }}">
+							<span class="glyphicon glyphicon-trash"></span>
+						</button>
+
+						<div class="modal fade" id="delete{{ newsletter.id }}">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h4 class="modal-title">Etes vous sur de vouloir supprimer "{{ newsletter.email }}" des newsletters ?</h4>
+									</div>
+									<div class="modal-footer">
+										<a role="button" class="btn btn-danger" href="/admin/newsletter/delete/{{ newsletter.id }}">Supprimer</a>
+										<button class="btn btn-default" data-dismiss="modal">Annuler</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+			        </th>
+		    	</tr>
+		    {% endfor %}
+
+		</tbody>
+		
+	</table>
+
+{% endblock %}

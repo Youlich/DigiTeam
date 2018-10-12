@@ -1,0 +1,101 @@
+{% extends 'admin/admin.html.twig' %}
+
+{% block title %}Liste des devis "En attente"{% endblock %}
+
+{% block body %}
+	
+	<h1>Liste des devis "En attente"</h1>
+
+	<table class="table table-bordered table-striped table-condensed justify">
+
+		<thead>
+
+			<tr>
+				<th class="col-xs-1">Numéro du devis</th>
+			  	<th class="col-xs-1">Date demande</th>
+			  	<th class="col-xs-1">Nom</th>
+			  	<th class="col-xs-1">Prenom</th>
+			  	<th class="col-xs-1">Société</th>
+			  	<th class="col-xs-1">Téléphone</th>
+			  	<th class="col-xs-1">Email</th>
+			  	<th class="col-xs-1">Services</th>
+			  	<th class="col-xs-1">Signer</th>
+			  	<th class="col-xs-1">Modifier</th>
+			  	<th class="col-xs-1">Supprimer</th>
+			</tr>
+
+		</thead>
+
+		<tbody>
+
+			{% for devi in devis %}
+				<tr>
+					<th>{{ devi.id }}</th>
+			        <th>{{ devi.dateAjout | date("d/m/Y") }}</th>
+			        <th>{{ devi.nom}}</th>
+			        <th>{{ devi.prenom }}</th>
+			        <th>{{ devi.societe }}</th>
+			        <th>{{ devi.telephone }}</th>
+			        <th>{{ devi.email }}</th>
+			        <th>
+			        	<ul>
+
+			        		{% if devi.packStarter == true %}
+			        			<li>Pack Starter</li>
+			        		{% endif %}
+
+			        		{% if devi.packChallenger == true %}
+			        			<li>Pack Challenger</li>
+			        		{% endif %}
+
+			        		{% if devi.packExpert == true %}
+			        			<li>Pack Expert</li>
+			        		{% endif %}
+
+			        		{% if devi.inboundMarketing == true %}
+			        			<li>Inbound Marketing</li>
+			        		{% endif %}
+
+			        		{% if devi.consulting == true %}
+			        			<li>Consulting</li>
+			        		{% endif %}
+			        		
+			        	</ul> 
+			        </th>
+			        <th class="btn-admin-table">
+			        	<a role="button" class="btn btn-primary" href="/admin/devis/statutSignes/{{ devi.id }}">Signer</a>
+			        </th>
+			        <th class="btn-admin-table">
+			        	<a role="button" class="btn btn-warning" href='/admin/devis/edit/{{ devi.id }}'>
+			        		<span class="glyphicon glyphicon-edit"></span>			   
+			        	</a>
+			        </th>
+			        <th class="btn-admin-table">
+
+			        	<button class="btn btn-danger" data-toggle="modal" href="#delete{{ devi.id }}">
+							<span class="glyphicon glyphicon-trash"></span>
+						</button>
+
+						<div class="modal fade" id="delete{{ devi.id }}">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h4 class="modal-title">Etes vous sur de vouloir supprimer le devis n°{{ devi.id }} ?</h4>
+									</div>
+									<div class="modal-footer">
+										<a role="button" class="btn btn-danger" href="/admin/devis/delete/{{ devi.id }}">Supprimer</a>
+										<button class="btn btn-default" data-dismiss="modal">Annuler</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+			        </th>
+		    	</tr>
+		    {% endfor %}
+
+		</tbody>
+		
+	</table>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<div style="margin-top:200px;">
+		Titre : {{ article.titre }}
+		</br>
+		Auteur : {{ article.auteur }}
+
+		
+
+		<img src="{{ asset('uploads/images/') }}{{ article.image }}">
+
+		{{ form(form) }}
+
+		{% for commentaire in article.commentaires %}
+			{{ commentaire.contenu}}</br>
+		{% endfor %}
+	</div>
+
+{% endblock %}

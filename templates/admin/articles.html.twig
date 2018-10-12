@@ -1,0 +1,66 @@
+{% extends 'admin/admin.html.twig' %}
+
+{% block title %}Liste des articles{% endblock %}
+
+{% block body %}
+	
+	<h1>Liste des articles</h1>
+
+	<table class="table table-bordered table-striped table-condensed justify">
+
+		<thead>
+
+			<tr>
+			  	<th class="col-xs-2">Auteur</th>
+			  	<th class="col-xs-2">Titre</th>
+			  	<th class="col-xs-4">Résumé</th>
+			  	<th class="col-xs-1">Date d'ajout</th>
+			  	<th class="col-xs-1">Modifier</th>
+			  	<th class="col-xs-1">Supprimer</th>
+			</tr>
+
+		</thead>
+
+		<tbody>
+
+			{% for article in articles %}
+				<tr>
+					<th>{{ article.auteur }}</th>
+					<th>{{ article.titre }}</th>
+					<th>{{ article.resume }}</th>
+					<th>{{ article.dateAjout | date("d/m/Y") }}</th>
+					<th>
+						<a role="button" class="btn btn-warning" href='/admin/article/edit/{{ article.id }}'>
+							<span class="glyphicon glyphicon-edit"></span>
+						</a>
+					</th>
+					<th>
+
+						<button class="btn btn-danger" data-toggle="modal" href="#delete{{ article.id }}">
+							<span class="glyphicon glyphicon-trash"></span>
+						</button>
+
+						<div class="modal fade" id="delete{{ article.id }}">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h4 class="modal-title">Etes vous sur de vouloir supprimer l'article {{ article.titre }} ?</h4>
+									</div>
+									<div class="modal-footer">
+										<a role="button" class="btn btn-danger" href="/admin/article/delete/{{ article.id }}">Supprimer</a>
+										<button class="btn btn-default" data-dismiss="modal">Annuler</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</th>
+		    	</tr>
+		    {% endfor %}
+
+		</tbody>
+		
+	</table>
+
+{% endblock %}
+

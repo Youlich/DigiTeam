@@ -1,0 +1,263 @@
+{{ form_start(form, {'attr': {'class': 'form-horizontal'}}) }}
+
+{{ form_errors(form) }}
+
+<div class="row">
+
+    <div class="col-xs-offset-1 col-xs-3">
+        <div class="form-group">
+            <div>
+                {{ form_widget(form.packStarter, { 'attr': {'class': ''} }) }}
+                {{ form_label(form.packStarter, "Pack Starter", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_errors(form.packStarter, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-offset-1 col-xs-3">
+        <div class="form-group">
+            <div>
+                {{ form_widget(form.packChallenger, { 'attr': {'class': ''} }) }}
+                {{ form_label(form.packChallenger, "Pack Challenger", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_errors(form.packChallenger, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-offset-1 col-xs-3">
+        <div class="form-group">
+            <div>
+                {{ form_widget(form.packExpert, { 'attr': {'class': ''} }) }}
+                {{ form_label(form.packExpert, "Pack Expert", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_errors(form.packExpert, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-xs-offset-1 col-xs-3">
+        <div class="form-group">
+            <div>
+                {{ form_widget(form.inboundMarketing, { 'attr': {'class': ''} }) }}
+                {{ form_label(form.inboundMarketing, "Inbound Marketing", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_errors(form.inboundMarketing, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-offset-1 col-xs-3">
+        <div class="form-group">
+            <div>
+                {{ form_widget(form.consulting, { 'attr': {'class': ''} }) }}
+                {{ form_label(form.consulting, "Consulting", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_errors(form.consulting, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-xs-offset-1 col-xs-9">
+        <div class="form-group">
+            <div>
+                {{ form_label(form.civilite, "Civilité", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_widget(form.civilite, { 'attr': {'class': 'form-control'} }) }}
+            </div>
+            <div>
+                {{ form_errors(form.civilite, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-offset-1 col-xs-4">
+        <div class="form-group">
+            <div>
+                {{ form_label(form.nom, "Nom", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_widget(form.nom, { 'attr': {'class': 'form-control'} }) }}
+            </div>
+            <div>
+                {{ form_errors(form.nom, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-offset-1 col-xs-4">
+        <div class="form-group">
+            <div>
+                {{ form_label(form.prenom, "Prénom", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_widget(form.prenom, { 'attr': {'class': 'form-control'} }) }}
+            </div>
+            <div>
+                {{ form_errors(form.prenom, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-offset-1 col-xs-4">
+        <div class="form-group">
+            <div>
+                {{ form_label(form.societe, "Societe", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_widget(form.societe, { 'attr': {'class': 'form-control'} }) }}
+            </div>
+            <div>
+                {{ form_errors(form.societe, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-offset-1 col-xs-4">
+        <div class="form-group">
+            <div>
+                {{ form_label(form.email, "E-mail", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_widget(form.email, { 'attr': {'class': 'form-control'} }) }}
+            </div>
+            <div>
+                {{ form_errors(form.email, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-offset-1 col-xs-9">
+        <div class="form-group">
+            <div>
+                {{ form_label(form.adresse, "Adresse", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_widget(form.adresse, { 'attr': {'class': 'form-control'} }) }}
+            </div>
+            <div>
+                {{ form_errors(form.adresse, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-offset-1 col-xs-4">
+        <div class="form-group">
+            <div>
+                {{ form_label(form.codePostal, "Code Postal", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_widget(form.codePostal, { 'attr': {'class': 'form-control'} }) }}
+            </div>
+            <div>
+                {{ form_errors(form.codePostal, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-offset-1 col-xs-4">
+        <div class="form-group">
+            <div>
+                {{ form_label(form.ville, "Ville", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_widget(form.ville, { 'attr': {'class': 'form-control'} }) }}
+            </div>
+            <div>
+                {{ form_errors(form.ville, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-offset-1 col-xs-4">
+        <div class="form-group">
+            <div>
+                {{ form_label(form.telephone, "Téléphone", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_widget(form.telephone, { 'attr': {'class': 'form-control'} }) }}
+            </div>
+            <div>
+                {{ form_errors(form.telephone, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-offset-1 col-xs-4">
+        <div class="form-group">
+            <div>
+                {{ form_label(form.urlSite, "URL du site", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_widget(form.urlSite, { 'attr': {'class': 'form-control'} }) }}
+            </div>
+            <div>
+                {{ form_errors(form.urlSite, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-offset-1 col-xs-9">
+        <div class="form-group">
+            <div>
+                {{ form_label(form.description, "Description", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_widget(form.description, { 'attr': {'style':'min-height:250px','class': 'form-control'} }) }}
+            </div>
+            <div>
+                {{ form_errors(form.description, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-offset-1 col-xs-9">
+        <div class="form-group">
+            <div>
+                {{ form_label(form.statut, "Statut", {'label_attr': {'class': 'control-label'}}) }}
+            </div>  
+            <div>
+                {{ form_widget(form.statut, { 'attr': {'class': 'form-control'} }) }}
+            </div>
+            <div>
+                {{ form_errors(form.statut, { 'attr': {'class': 'form-control '} }) }}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{{ form_widget(form.save, {'attr': {'class': 'btn btn-primary btn-lg col-xs-offset-7 col-xs-3'}, 'label': 'Enregistrer'}) }}
+
+{{ form_rest(form) }}
+
+{{ form_end(form) }}
